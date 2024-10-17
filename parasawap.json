@@ -1,0 +1,39 @@
+{
+    "context": {
+      "contract": {
+        "abi": "https://api.etherscan.io/api?module=contract&action=getabi&address=0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+          }
+        ]
+      },
+      "$id": "unique identifier"
+    },
+    "metadata": {
+      "owner": "paraswap ",
+      "info": {
+        "url": "parswap.com",
+        "legalName": "paraswap labs",
+        "lastUpdate": "2024-10-17T16:33:53.775Z"
+      }
+    },
+    "display": {
+      "formats": {
+        "swapExactTokensForTokens": {
+          "intent": "Swap exact Token",
+          "fields": [
+            {
+              "label": "Amount ",
+              "path": "amountIn"
+            },
+            {
+              "label": "AMount out",
+              "path": "amountOutMin"
+            }
+          ]
+        }
+      }
+    }
+  }
